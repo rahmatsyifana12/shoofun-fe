@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    color: #697BFF;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-menu .nav-item {
+    margin-right: 47px;
+}
+
+@media (min-width: 992px) {
+    .navbar-menu {
+        margin-left: 75px;
+    }
+
+    .navbar-right .navbar-nav {
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-menu {
+        margin-left: 40px;
+    }
+
+    .navbar-menu .nav-item {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .btn-login, .btn-signup {
+        margin: 8px 0;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .navbar-menu {
+        margin-left: 0px;
+    }
+}
+
+.fa-shopping-cart {
+    margin-right: 4px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.fa-shopping-cart {
+    font-size: 27px;
+    height: 30px;
+}
+
+.btn-login, .btn-signup {
+    background-color: #697BFF;
+    border-radius: 8px;
+    color: #fff;
+    border-color: #697BFF;
+    font-size: 16px;
+}
+
+.btn-login {
+    padding: 5px 25px;
+}
+
+.btn-signup {
+    padding: 5px 23px;
+}
+
+.separator {
+    color: #CDCDCD;
+    margin-left: 14px;
+    margin-right: 22px;
+}
