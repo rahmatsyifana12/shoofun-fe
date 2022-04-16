@@ -81,16 +81,23 @@ body::before {
     height: 30px;
 }
 
-.btn-login, .btn-signup{
+.btn-signup{
     background-color: #697BFF;
     border-radius: 8px;
     color: #fff;
     border-color: #697BFF;
     font-size: 16px;
+    padding: 5px 23px;
 }
 
 .btn-login {
     padding: 5px 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #697BFF;
+    border-color: #697BFF;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .btn-signup {
@@ -108,4 +115,36 @@ body::before {
     border-radius: 8px;
     color: #fff;
     border-color: #697BFF;
+}
+
+.product-title {
+    font-weight: 700;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.price {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card {
+    border: none;
+}
+
+.card button {
+    padding: 4px 18px;
+    background-color: #697BFF;
+    border-radius: 8px;
+    color: #fff;
+    border-color: #697BFF;
+}
+
+.card img {
+    width: 343px;
+    border-radius: 8px;
+}
+
+.btn-purple:hover {
+    background-color: #4557dc;
 }
