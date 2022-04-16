@@ -141,10 +141,15 @@ body::before {
 }
 
 .card img {
-    width: 343px;
+    width: 490px;
     border-radius: 8px;
 }
 
 .btn-purple:hover {
     background-color: #4557dc;
+}
+
+#products .col-md {
+    padding-left: 0;
+    padding-right: 0;
 }
