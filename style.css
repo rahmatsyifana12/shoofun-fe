@@ -4,6 +4,16 @@
     font-family: 'Nunito', sans-serif;
 }
 
+body::before {
+    display: block;
+    content: '';
+    height: 90px;
+}
+
+.nav {
+    background-color: #fff;
+}
+
 .navbar-brand {
     font-size: 32px;
     font-weight: 700;
@@ -71,7 +81,7 @@
     height: 30px;
 }
 
-.btn-login, .btn-signup {
+.btn-login, .btn-signup{
     background-color: #697BFF;
     border-radius: 8px;
     color: #fff;
@@ -91,4 +101,11 @@
     color: #CDCDCD;
     margin-left: 14px;
     margin-right: 22px;
+}
+
+.browse {
+    background-color: #697BFF;
+    border-radius: 8px;
+    color: #fff;
+    border-color: #697BFF;
 }
