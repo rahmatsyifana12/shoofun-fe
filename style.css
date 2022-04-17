@@ -153,3 +153,9 @@ body::before {
     padding-left: 0;
     padding-right: 0;
 }
+
+#free-shipping .container {
+    background-color: #E0E0E0;
+    padding: 22px 187px;
+    font-size: 24px;
+}
