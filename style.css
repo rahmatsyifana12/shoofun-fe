@@ -154,8 +154,26 @@ body::before {
     padding-right: 0;
 }
 
-#free-shipping .container {
+#free-shipping .wrapper {
     background-color: #E0E0E0;
-    padding: 22px 187px;
+    padding: 22px;
     font-size: 24px;
+}
+
+#offer hr {
+    border: 1px solid #000;
+}
+
+#offer .title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#offer p {
+    font-size: 20px;
+}
+
+#offer {
+    margin-bottom: 80px;
 }
